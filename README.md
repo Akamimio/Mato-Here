@@ -1,3 +1,1 @@
-Mato Here V4 - Critical fix
-Fixed a JavaScript runtime error: spawnCrate() was reassigning a const x, stopping initialization before the timer and crate rendering started.
-Upload all files to GitHub Pages root, overwriting the previous files. Test in a private browser window.
+Mato Here V5 — rebuilt using DOM elements, not canvas. Upload the contents of this folder to the root of your GitHub Pages repository. No service worker is used in this troubleshooting version; internet is needed for initial loading. Verify that the timer decreases and crates move before packaging for Microsoft Store.
